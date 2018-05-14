@@ -1,0 +1,18 @@
+1.关机命令 init 0
+2.Root 用户 结尾提示符 #
+  自定义用户 结尾提示符 $
+3.exit 退出当前终端,切换终端 Ctrl+Alt+F1~F6
+
+4.语法命令格式 ： 命令 【选项】 【参数】 部分选项以-开头
+  a. ls -l /boot :"-l"信息更详细 boot是分区 是参数 可以省略
+  b. whoami
+  c.who
+  e.date 如要修改加参数 按照“月日时分年”,,,同步硬件时间 hwcloclk -s
+  f.cal 默认当前，如要查看加参数’月 年‘ cal 07 1999
+  g.clear 清屏 或者使用快捷键 Ctrl+l
+  h. useradd xxx
+  i. passwd xxx 需要制定用户名并且输入两次
+  j.su    su 用户名，切入用户 权限高不需要密码
+  k.--help eg. useradd --help 或者使用 man useradd 使用Q退出
+  
+5.中止命令 Ctrl+c
