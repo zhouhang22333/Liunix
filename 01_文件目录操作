@@ -8,13 +8,15 @@ ls 列出所有文件
 cd 进入文件/目录
 
 /下面的目录
-  bin目录 存放常用可执行文件
-  sbin
-  home   /home/    /root
-  dev
-  etc
-  /mnt /opt /media /temp
+  bin 二进制目录 存放常用可执行文件
+  sbin 系统可执行文件
+  home  存放用户    /home/用户名   除了管理员 root是位于根目录/
+  dev 设备文件
+  etc 配置文件
+  /mnt /opt /media /temp 可以随意删除文件
   
   
   
   绝对路径和相对路径
+带 / 就是绝对路径
+不带/ 就是相对路径
