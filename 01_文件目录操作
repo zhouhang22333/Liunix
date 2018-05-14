@@ -1,0 +1,20 @@
+ls 列出所有文件
+   . 当前目录
+   ..上一级目录
+   ls . = ls / = ls
+   ls -a 显示隐藏文件
+
+
+cd 进入文件/目录
+
+/下面的目录
+  bin目录 存放常用可执行文件
+  sbin
+  home   /home/    /root
+  dev
+  etc
+  /mnt /opt /media /temp
+  
+  
+  
+  绝对路径和相对路径
