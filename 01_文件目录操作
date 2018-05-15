@@ -3,16 +3,16 @@ ls 列出所有文件
    ..上一级目录
    ls . = ls / = ls
    ls -a 显示隐藏文件
-   ls -all
-   ls -l
+   ls -all 显示隐藏文件
+   ls -l 显示详细
 
 
 cd 进入文件/目录
-   cd .
-   cd ..
-   cd ~
-   cd -
-   cd
+   cd . 返回当前目录
+   cd .. 返回上一级目录
+   cd ~ 返回用户名主目录
+   cd - 返回上一次目录
+   cd 返回主目录
 
 pwd 确认当前目录
 
@@ -32,34 +32,38 @@ pwd 确认当前目录
 
 
 CP 
-1.保持原名
-2.重命名
-3.cp -i 
-   别名的用法 alize
-4.cp -r
+1.保持原名 cp cp /aaa.txt /etc
+2.重命名 cp cp /aaa.txt /ect/new_name
+3.cp -i 询问是否覆盖
+4.cp -r 迭代拷贝
 
 
 mv
-1.
-2.
+1.mv /etc  /temp  
+2.mv 文件名到另一个文件名
 
 
 
 mkdir
-1.
-2.mkdir -p
+1.创建目录
+2.mkdir -p 连着上级目录创建
 
 
 touch
+创建文件
 
 
 rm
 rmdir
 
-cat
+cat 查看整个文件
 
-head
+head 查看头几行
 
-tail
+tail 查看尾部几行
 
-echo
+more 回车查看文件根据屏幕大小
+
+less 翻页查看
+
+echo 输入echo 'aaa' /root/sss
