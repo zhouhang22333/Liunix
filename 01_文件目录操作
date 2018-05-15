@@ -31,4 +31,35 @@ pwd 确认当前目录
 不带/ 就是相对路径
 
 
-CP
+CP 
+1.保持原名
+2.重命名
+3.cp -i 
+   别名的用法 alize
+4.cp -r
+
+
+mv
+1.
+2.
+
+
+
+mkdir
+1.
+2.mkdir -p
+
+
+touch
+
+
+rm
+rmdir
+
+cat
+
+head
+
+tail
+
+echo
