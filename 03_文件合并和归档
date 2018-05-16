@@ -1,0 +1,14 @@
+>
+
+>>
+
+cat 多个文件？ cat file1 file2
+
+WC的作用是什么？ 统计文件行数 wc file1
+
+| 的语法 将左边的结果作为参数给右边  cat file1 | wc
+
+tar
+  打包 tar cf/cvf target_file.tar  file1,file2,...    加V可以看到过程
+  查看包 tar tf target_file.tar
+  解包 tar xf/xvf target_file.tar -C path
