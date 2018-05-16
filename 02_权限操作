@@ -1,0 +1,14 @@
+用户配置文件相关
+
+ls /etc/password  用户信息
+ls /etc/shadow 用户密码
+ls /etc/group 用户组
+ls /etc/gshadow 用户组密码
+ls /var/spool/mail 用户邮箱
+ls id 用户名  查询UID Gid
+vim    
+   vim /etc/leo
+   : wq 保存
+   : wq! 强制保存
+   
+  
