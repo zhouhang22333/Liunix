@@ -6,9 +6,36 @@ ls /etc/group 用户组
 ls /etc/gshadow 用户组密码
 ls /var/spool/mail 用户邮箱
 ls id 用户名  查询UID Gid
+
 vim    
    vim /etc/leo
    : wq 保存
    : wq! 强制保存
    
-  
+   
+   
+   
+  命令行参数增加用户 
+  useradd 
+         -u 指定UI
+         -g 制定所属组 注意只能是存在的组
+         -d 指定家目录
+         -c 描述信息
+         -s 是否可以登录系统 有两个值 /bin/bash 和/sbin/nologin 
+
+完整语句如下，假设用户名为lion
+useradd -u 570 -g leo -d /home/lion -c dasb -s /bin/bash lion
+
+
+删除用户 
+userdel -r   用-r才能删干净
+
+修改
+usermod 
+           -d 修改家目录 一般需要提前拷贝文件至目标目录下
+           -g 修改gid
+           -G 增加一个副组名 注意是覆盖操作 
+           -a 追加一个副组名 usermod -a -G tom leo
+           -L 锁住
+           -U 解锁
+           -n 重命名一个用户
