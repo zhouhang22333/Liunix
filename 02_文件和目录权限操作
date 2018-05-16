@@ -86,3 +86,10 @@ Root 和 属主 不受权限影响
 更改属主和属组
 
 chown
+     -R
+     
+     r=4
+     w=2
+     x=1
+     chmod 664 a.txt => chmod u=rwx,g=rwx,o=rw a.txt
+     
