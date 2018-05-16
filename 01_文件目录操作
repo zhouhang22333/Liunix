@@ -47,6 +47,7 @@ mv
 mkdir
 1.创建目录
 2.mkdir -p 连着上级目录创建
+  mkdir /root/test/a/b/c/{1..9}.txt
 
 
 touch
