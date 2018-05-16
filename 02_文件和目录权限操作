@@ -75,6 +75,15 @@ bash
 
 如果一个其他用户没有权限 属组有，可以添加到组里面
 usermod -a -G 有权限的组 用户
+
+给用户添加组的两种方式：
+
+1.
+vim /etc/group
+
+2.
+groupadd group_1
+usermod -a -G group_1 groupadd
     
 目录的权限
 r 可以ls
