@@ -9,10 +9,21 @@ WC的作用是什么？ 统计文件行数 wc file1
 | 的语法 将左边的结果作为参数给右边  cat file1 | wc
 
 tar
-  打包 tar cf/cvf target_file.tar  file1,file2,...    加V可以看到过程
+  打包 tar cf/cvf target_file.tar  file1,file2,...    加V可以看到过程，打包后源文件还会在
   查看包 tar tf target_file.tar
   解包 tar xf/xvf target_file.tar -C path
 
 gzip
+  gzip target_file  /默认会压缩成 target_file.gz 同时target_file 会消失
+  gunzip targte_file.gz
 
 bzip2
+  同 gip 只是后缀名是 bzip2
+  
+同时打包并压缩
+  tar -czvf target_files.tar.gz target_file1 target_file2 target_file3
+打包压缩一个目录
+  tar -czvf target_folder.tar.gz target_folder
+解压缩 只需要xvf即可 解压出的是一个目录，如果不想目录 直接进目录 用通配符 *
+  tar xvf target_folfer.tar.gz -C folder
+ 
