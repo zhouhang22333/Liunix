@@ -21,9 +21,13 @@ bzip2
   同 gip 只是后缀名是 bzip2
   
 同时打包并压缩
-  tar -czvf target_files.tar.gz target_file1 target_file2 target_file3
+  tar czvf target_files.tar.gz target_file1 target_file2 target_file3
 打包压缩一个目录
-  tar -czvf target_folder.tar.gz target_folder
-解压缩 只需要xvf即可 解压出的是一个目录，如果不想目录 直接进目录 用通配符 *
+  tar czvf target_folder.tar.gz target_folder
+解压缩 只需要xvf即可 解压出的是一个目录，
   tar xvf target_folfer.tar.gz -C folder
+ 
+ 如果不想包含 直接进目录 用通配符 * targetfile可以带目录
+  cd folder
+  tar czvf target_files.tar.gz *
  
