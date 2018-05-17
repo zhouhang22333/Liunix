@@ -12,3 +12,7 @@ tar
   打包 tar cf/cvf target_file.tar  file1,file2,...    加V可以看到过程
   查看包 tar tf target_file.tar
   解包 tar xf/xvf target_file.tar -C path
+
+gzip
+
+bzip2
