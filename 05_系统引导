@@ -1,0 +1,18 @@
+BIOS Basic Input/output System 基本输入输出设置系统     决定从哪个盘开始引导
+GRUB Grand Unified Bootloader 多重操作系统启动管理器
+磁道 扇区 一个扇区 512KB
+MBR  Master Boot Record 主引导记录 决定从哪个分
+boot loader 引导记录 记录系统信息
+kernel 内核
+init process 
+     0 关机
+     1  单用户模式
+     2  多用户无网
+     3  多用户
+     4  unsed 开发
+     5  图形界面
+     6  重启
+
+cat /etc/redhat-release 版本信息
+uname -r/-a  内核信息
+
