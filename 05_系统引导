@@ -16,3 +16,7 @@ init process
 cat /etc/redhat-release 版本信息
 uname -r/-a  内核信息
 
+密码忘记 
+        reboot - anykey - 选择系统时 按E编辑 修改参数为1（init 1）-回车，选择系统界面 按B 引导 会进入单用户模式 可以修改ROOT的密码，修改
+        完成之后 init 5
+
