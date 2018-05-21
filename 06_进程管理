@@ -15,4 +15,9 @@ Top
     cashe 高速缓存  缓解内存和CPU之间 的读取差
 
 free
+free -m
+free -h
 
+内存的使用类似从池子里舀水 实际使用的是buffer/cache
+
+echo 'scale=2;30/4' | bc -l
