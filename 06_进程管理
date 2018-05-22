@@ -15,9 +15,28 @@ Top
     cashe 高速缓存  缓解内存和CPU之间 的读取差
 
 free
-free -m
-free -h
+free -m  按M显示
+free -h  按G显示
 
 内存的使用类似从池子里舀水 实际使用的是buffer/cache
 
-echo 'scale=2;30/4' | bc -l
+计算小数值：echo 'scale=2;30/4' | bc -l
+
+
+PS 
+  ps aux       ps aux | head -1
+  
+grep 
+  ls xxx | grep '.txt'   
+  grep xxx 目录
+  ps aux | grep '.txt' | grep -v'grep'   v 表示不匹配
+  
+  
+  tty1 桌面
+  pts/0 第一个终端
+
+kill
+kill -9 pid
+
+
+
