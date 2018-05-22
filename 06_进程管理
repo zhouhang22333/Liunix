@@ -30,13 +30,25 @@ grep
   ls xxx | grep '.txt'   
   grep xxx 目录
   ps aux | grep '.txt' | grep -v'grep'   v 表示不匹配
+  pgrep +进程名 过滤出PID
   
   
   tty1 桌面
   pts/0 第一个终端
 
 kill
-kill -9 pid
+kill -9 pid/工作号（%1）
 
+    firefox &  后台运行
+    jobs 查看后台运行的进程
+    fg%1 后台调前台
+    bg%1 前台调后台
+    
+ pkill 
+      pkill + 进程名
+    
+    
+pstree 进程树
+      pstree | grep 'bash'
 
 
