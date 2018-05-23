@@ -4,7 +4,16 @@ fdsik
      扩展分区 之后新建的主分区使用的是扩展分区里的空间
      
      全部新建完好后 W 保存 partprobe
-     
+  
+mkfs 格式化文件系统 
+      mkfs.ext4 /dev/sdb1
+
+mount 挂载 将设备具体映射到一个目录
+      mkdir /sdb1   创建文件
+      mount /dev/sdb1 /sdb1 挂载文件
+      df 查看挂载信息
+   
+  
   512KB
       446 
       64
