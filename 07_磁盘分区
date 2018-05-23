@@ -1,0 +1,13 @@
+fdsik
+     fdisk -l   eg:fdisk -l /dev/sdb
+     fdisk /dev/sdb    1.n 2.p 最多只能分四个主分区 3.回车回车 4.+5G 5.按P查看
+     扩展分区 之后新建的主分区使用的是扩展分区里的空间
+     
+     全部新建完好后 W 保存 partprobe
+     
+  512KB
+      446 
+      64
+      20
+      
+    
